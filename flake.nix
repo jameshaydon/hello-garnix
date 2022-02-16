@@ -25,7 +25,7 @@
             OUTPUT=$(./an-executable)
             if [ "$OUTPUT" != "Hello rom an executable!" ]; then
               echo "Test failed!"
-              exit 1
+              exit 0
             fi
           '';
 
